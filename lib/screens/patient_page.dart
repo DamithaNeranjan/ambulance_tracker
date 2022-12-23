@@ -42,7 +42,7 @@ class _PatientPageState extends State<PatientPage> {
             child: Column(
                 //mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-              RaisedButton(
+              OutlinedButton(
                   child: Text("Refresh location"),
                   onPressed: () async {
                     currentLoc();
@@ -68,7 +68,7 @@ class _PatientPageState extends State<PatientPage> {
                   ],
                 ),
               ),
-              RaisedButton(
+              OutlinedButton(
                   child: Text("See nearby hospitals in GMap"),
                   onPressed: () async {
                     MapUtils.openMap(

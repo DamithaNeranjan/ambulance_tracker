@@ -167,12 +167,12 @@ class _NewDriversCodeState extends State<NewDriversCode> {
                     ],
                   )),
               Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                RaisedButton(
+                OutlinedButton(
                     child: Text("Cancel"),
                     onPressed: () {
                       Navigator.pop(context);
                     }),
-                RaisedButton(
+                OutlinedButton(
                     child: Text("Add Driver"),
                     onPressed: () {
                       Fluttertoast.showToast(
